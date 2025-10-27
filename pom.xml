@@ -24,7 +24,7 @@
 
     <modules>
         <module>news-service</module>
-<!--        <module>ai-service</module>-->
+        <module>ai-service</module>
 <!--        <module>twitter-service</module>-->
 <!--        <module>notifier-service</module>-->
 <!--        <module>scheduler-service</module>-->
