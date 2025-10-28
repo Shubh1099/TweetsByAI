@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.4</version>
+        <version>3.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -28,10 +28,19 @@
         <module>twitter-service</module>
         <module>notification-service</module>
         <module>scheduler-service</module>
+        <module>eureka-server</module>
     </modules>
 
     <dependencyManagement>
         <!-- Additional dependency management if needed -->
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            </dependency>
+        </dependencies>
+
     </dependencyManagement>
 
 </project>
