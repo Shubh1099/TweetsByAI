@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.4</version>
+        <version>3.3.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -24,10 +24,12 @@
 
     <modules>
         <module>news-service</module>
-<!--        <module>ai-service</module>-->
-<!--        <module>twitter-service</module>-->
-<!--        <module>notifier-service</module>-->
-<!--        <module>scheduler-service</module>-->
+        <module>ai-service</module>
+        <module>twitter-service</module>
+        <module>notification-service</module>
+        <module>scheduler-service</module>
+        <module>eureka-server</module>
+
     </modules>
 
     <dependencyManagement>

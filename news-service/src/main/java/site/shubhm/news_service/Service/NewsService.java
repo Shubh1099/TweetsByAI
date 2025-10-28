@@ -28,7 +28,7 @@ public class NewsService {
 
 		try {
 			String url = String.format(
-					"https://newsdata.io/api/1/latest?apikey=%s&country=us&language=en&category=technology",
+					"https://newsdata.io/api/1/latest?apikey=%s&country=in&language=en&category=politics",
 					apiKey
 			);
 
