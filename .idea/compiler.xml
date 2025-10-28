@@ -16,6 +16,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="news-service" />
+        <module name="scheduler-service" />
         <module name="twitter-service" />
         <module name="ai-service" />
         <module name="notification-service" />
@@ -30,6 +31,7 @@
       <module name="ai-service" options="-parameters" />
       <module name="news-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
+      <module name="scheduler-service" options="-parameters" />
       <module name="twitter-service" options="-parameters" />
     </option>
   </component>
