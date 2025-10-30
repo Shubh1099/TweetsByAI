@@ -11,15 +11,15 @@ An intelligent microservices-based application that automatically fetches trendi
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
+- [Overview](#Overview)
 - [Features](#features)
 - [Architecture](#architecture)
-- [Technologies](#technologies)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [API Documentation](#api-documentation)
+- [Technologies](#Technologies)
+- [Prerequisites](#Prerequisites)
+- [Installation](#Installation)
+- [Configuration](#Configuration)
+- [Running the Application](#Running-the-application)
+- [API Documentation](#Api-documentation)
 - 
 ---
 
